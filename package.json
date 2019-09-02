@@ -1,0 +1,33 @@
+{
+  "name": "awesome_project",
+  "version": "1.0.0",
+  "description": "Your awesome project description",
+  "main": "gulpfile.js",
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "at-rule-empty-line-before": null
+  },
+  "directories": {},
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "bulma": "^0.7.2",
+    "node-sass": "^4.9.0",
+    "universal-tilt.js": "^1.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "babel-plugin-transform-es2015-for-of": "^6.23.0",
+    "comment-json": "^1.1.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-stylelint": "^3.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
